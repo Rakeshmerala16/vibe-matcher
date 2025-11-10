@@ -25,8 +25,29 @@ AI-powered fashion recommendation system that matches user "vibes" (e.g., "energ
 
 ## 🖼️ Screenshots  
 
-### 🎯 Results
-![Product Results](./collab-Notebook/search1.png)
+### 🎯 Winter Search Results
+This screen shows the result of entering a vibe keyword (e.g., **"Winter"**) into the search bar.  
+The system uses semantic embeddings to understand the seasonal vibe and recommends products that match the tone and style — not just keyword matches.
+
+<p align="center">
+  <img src="./collab-Notebook/search1.png" width="90%" />
+</p>
+
+
+### 🎉 Festival Vibe Search UI
+
+This example shows how the system responds when the user searches for a vibe like **"Festival"**.  
+Instead of matching literal words, the model understands the *feeling* of festival fashion: bold colors, playful accessories, energetic street style, etc.
+
+The recommendation engine:
+- Interprets the festival vibe using semantic embeddings
+- Retrieves the top matching products using cosine similarity
+- Presents confident suggestions with visual match percentages
+
+<p align="center">
+  <img src="./collab-Notebook/search2.png" width="90%" />
+</p>
+
 
 
 ## 🛠️ Setup
@@ -55,11 +76,6 @@ npm run dev
 - **Model:** Free, open-source, 400MB
 - **Scalability:** Ready for vector DB (Pinecone/Weaviate)
 
-## 🔗 Links
-
-- **Colab Notebook:** [Link to notebook]
-- **Live Demo:** [If deployed]
-- **Portfolio:** [Your portfolio URL]
 
 ## 📄 License
 
