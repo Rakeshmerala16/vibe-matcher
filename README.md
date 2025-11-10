@@ -23,6 +23,12 @@ AI-powered fashion recommendation system that matches user "vibes" (e.g., "energ
 - ✅ 60-100% match scores for UX
 - ✅ FREE model (no API costs)
 
+## 🖼️ Screenshots  
+
+### 🎯 Results
+![Product Results](./collab-Notebook/search1.png)
+
+
 ## 🛠️ Setup
 
 1. **Install dependencies:**
